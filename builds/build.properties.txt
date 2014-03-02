@@ -1,0 +1,2 @@
+module.name=cflappy
+build.version=dev

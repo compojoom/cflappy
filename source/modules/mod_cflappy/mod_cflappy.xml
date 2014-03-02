@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"
+           version="2.5"
+           client="site"
+           method="upgrade"
+	>
+	<name>mod_cflappy</name>
+	<author>compojoom.com</author>
+	<creationDate>@@DATE@@</creationDate>
+	<copyright>Copyright (C) 2014 Daniel Dimitrov - compojoom.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>daniel@compojoom.com</authorEmail>
+	<authorUrl>compojoom.com</authorUrl>
+	<version>@@VERSION@@</version>
+	<description>MOD_CFLAPPY_DESCRIPTION</description>
+	<files>
+		##PACKAGEFILESMODULE##
+	</files>
+	<languages folder="language">
+		##FRONTENDLANGUAGEFILES##
+	</languages>
+	<media destination="@@MODULENAME@@" folder="media/@@MODULENAME@@">
+		##MEDIAPACKAGEFILES##
+	</media>
+	<config>
+
+	</config>
+</extension>
