@@ -23,6 +23,16 @@
 		##MEDIAPACKAGEFILES##
 	</media>
 	<config>
-
+		<fields name="params">
+			<fieldset name="basic" label="MOD_CFLAPPY_BASIC_FIELDSET_LABEL">
+				<field
+					name="players"
+					type="textarea"
+					label="MOD_CFLAPPY_PLAYERS_LABEL"
+					description="MOD_CFLAPPY_PLAYERS_DESC"
+					filter="raw"
+					default="bird=Flappy=I can't really fly&#10;bird2=Nicholas=Do you have &lt;a href=&quot;http://akeebabackup.com&quot; target=&quot;_blank&quot; &gt;backup?&lt;/a&gt;&#10;bird3=Brian=&lt;a href=&quot;http://brian.teeman.net/&quot; target=&quot;_blank&quot; &gt;Agree or disagree&lt;/a&gt;... i don't care&#10;bird1=Daniel=&lt;a href=&quot;http://compojoom.com&quot; target=&quot;_blank&quot; &gt;Noooo, not another flappy bird!&lt;/a&gt;" />
+			</fieldset>
+		</fields>
 	</config>
 </extension>
